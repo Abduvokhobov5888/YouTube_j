@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#000000"
+        android:background="@color/white"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
@@ -33,7 +33,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="4dp"
                     android:text="YouTube"
-                    android:textColor="#ffffff"
+                    android:textColor="@color/black"
                     android:textSize="19sp"
                     android:textStyle="bold" />
 
@@ -88,7 +88,7 @@
         android:id="@+id/rv1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#000000"
+        android:background="@color/white"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
